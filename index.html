@@ -99,8 +99,7 @@
     font-family:'Instrument Serif',serif;font-size:1.55rem;font-style:italic;text-decoration:none;color:var(--ink);
     display:flex;align-items:center;gap:10px;letter-spacing:-.01em;
   }
-  .logo img{height:34px;width:auto;display:block;object-fit:contain}
-  .logo .dot{width:8px;height:8px;border-radius:50%;background:var(--vermilion);display:inline-block;transform:translateY(-2px)}
+  .logo .dot{width:8px;height:8px;border-radius:50%;background:var(--vermilion);display:inline-block;transform:translateY(-2px);margin-left:2px}
   .menu{display:flex;gap:28px;list-style:none;padding:0;margin:0}
   .menu a{text-decoration:none;color:var(--ink);font-size:.82rem;font-family:'JetBrains Mono',monospace;letter-spacing:.08em;text-transform:uppercase;position:relative;padding:4px 0}
   .menu a:hover{color:var(--vermilion)}
@@ -312,7 +311,7 @@
 
 <header>
   <div class="container nav">
-    <a href="#" class="logo"><img src="logo.png" alt="La Bonne Adresse"></a>
+    <a href="#" class="logo">La Bonne Adresse<span class="dot"></span></a>
     <ul class="menu" id="menu">
       <li><a href="#probleme">01 · Constat</a></li>
       <li><a href="#solution">02 · Offre</a></li>
@@ -608,7 +607,7 @@
 <footer>
   <div class="container foot">
     <div class="foot-brand">
-      <a href="#" class="logo"><img src="logo.png" alt="La Bonne Adresse"></a>
+      <a href="#" class="logo">La Bonne Adresse<span class="dot"></span></a>
     </div>
     <ul class="foot-links">
       <li><a href="#contact">Contact</a></li>
