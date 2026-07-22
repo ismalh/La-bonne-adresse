@@ -3,17 +3,16 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>La Bonne Adresse — SEO local pour TPE et PME françaises</title>
-<meta name="description" content="Setup complet de votre présence Google (fiche, landing page, citations) puis suivi mensuel : avis, publications, contenu local et netlinking. Le SEO local pensé pour les TPE/PME françaises." />
-<link rel="icon" type="image/png" href="favicon-32.png">
+<title>La Pieuvre — Agence de SEO local</title>
+<meta name="description" content="La Pieuvre installe et entretient votre visibilité locale sur Google : fiche Google Business Profile, annuaires, avis, site — un bras sur chaque canal, pensé pour les TPE et PME françaises." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "name": "La Bonne Adresse",
+  "name": "La Pieuvre",
   "description": "SEO local pour TPE/PME françaises : optimisation de fiche Google Business Profile, landing page dédiée, citations locales, puis suivi mensuel (avis, contenu, netlinking, reporting).",
   "areaServed": "France",
   "email": "contact.ismalh@gmail.com",
@@ -24,301 +23,218 @@
 </script>
 <style>
   :root{
-    --paper:#fdf9f8;
-    --paper-2:#f9e9ec;
-    --ink:#1c0d10;
-    --ink-2:#4a2027;
-    --muted:#93707a;
-    --line:#1c0d10;
-    --line-soft:#ecc9d0;
-    --vermilion:#e31d3d;
-    --vermilion-2:#d80119;
-    --olive:#f46783;
+    --ink:#0E2A3D;
+    --ink-2:#193C52;
+    --paper:#FBEEE6;
+    --paper-2:#F6E0D4;
+    --text:#1B2B33;
+    --text-soft:#4A5F6B;
+    --muted:#7C939D;
+    --coral:#FF6F51;
+    --coral-2:#F1553A;
+    --teal:#17A398;
+    --teal-2:#0E7E75;
+    --plum:#6B4984;
+    --line:rgba(14,42,61,.14);
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{
     margin:0;
     font-family:'Inter',system-ui,-apple-system,sans-serif;
-    color:var(--ink);
+    color:var(--text);
     background:var(--paper);
     font-size:16px;
-    line-height:1.55;
+    line-height:1.6;
     -webkit-font-smoothing:antialiased;
-    background-image:
-      radial-gradient(rgba(21,20,18,.045) 1px, transparent 1px);
-    background-size: 4px 4px;
   }
-  ::selection{background:var(--vermilion);color:var(--paper)}
-
-  .serif{font-family:'Instrument Serif',Georgia,serif;font-weight:400;letter-spacing:-.01em;line-height:.98}
-  .italic{font-style:italic}
-  .mono{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase}
-
-  h1,h2,h3{margin:0;font-weight:400}
-  h1{font-family:'Instrument Serif',serif;font-size:clamp(3.4rem,9vw,7.2rem);line-height:.92;letter-spacing:-.02em}
-  h2{font-family:'Instrument Serif',serif;font-size:clamp(2.4rem,5.5vw,4.2rem);line-height:.98;letter-spacing:-.015em;margin-bottom:.4em}
-  h3{font-family:'Inter',sans-serif;font-size:1.02rem;font-weight:600;letter-spacing:-.005em;line-height:1.3}
-  p{margin:0 0 1em;color:var(--ink-2)}
+  ::selection{background:var(--coral);color:#fff}
   a{color:inherit}
+  h1,h2,h3{margin:0;font-family:'Baloo 2',sans-serif;font-weight:700}
 
-  .container{max-width:1240px;margin:0 auto;padding:0 32px}
-  section{padding:120px 0;position:relative}
-  .rule{height:1px;background:var(--line);width:100%}
-  .rule-soft{height:1px;background:var(--line-soft);width:100%}
+  .display{font-family:'Baloo 2',sans-serif}
+  h1{font-size:clamp(2.7rem,6.4vw,4.6rem);line-height:1.03;letter-spacing:-.01em}
+  h2{font-size:clamp(2rem,4.2vw,3.1rem);line-height:1.08;margin-bottom:.45em}
+  h3{font-family:'Baloo 2',sans-serif;font-size:1.28rem;font-weight:600;line-height:1.25}
+  p{margin:0 0 1em;color:var(--text-soft)}
 
-  .eyebrow{
-    display:inline-flex;align-items:center;gap:10px;
-    font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
-    color:var(--ink);font-weight:500;
+  .container{max-width:1180px;margin:0 auto;padding:0 32px}
+  section{padding:110px 0;position:relative}
+
+  .pill{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:'Baloo 2',sans-serif;font-weight:600;font-size:.82rem;
+    letter-spacing:.01em;color:var(--ink);
+    background:#fff;border:2px solid var(--ink);
+    padding:8px 16px 8px 12px;border-radius:999px;
   }
-  .eyebrow::before{content:"";width:24px;height:1px;background:var(--vermilion)}
+  .pill .dot{width:8px;height:8px;border-radius:50%;background:var(--coral)}
+  .pill.on-dark{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.35);color:#fff}
+  .pill.on-dark .dot{background:var(--teal)}
 
-  .section-num{
-    font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.18em;color:var(--muted);
-    display:block;margin-bottom:8px;
-  }
-
-  .strip{
-    background:var(--ink);color:var(--paper);overflow:hidden;
-    border-bottom:1px solid var(--ink);
-  }
-  .marquee{display:flex;gap:48px;padding:10px 0;white-space:nowrap;animation:scroll 40s linear infinite;font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase}
-  .marquee span{display:inline-flex;align-items:center;gap:14px}
-  .marquee span::after{content:"✦";color:var(--vermilion)}
+  .strip{background:var(--ink);color:#fff;overflow:hidden}
+  .marquee{display:flex;gap:40px;padding:11px 0;white-space:nowrap;animation:scroll 32s linear infinite;font-family:'Baloo 2',sans-serif;font-weight:600;font-size:.85rem}
+  .marquee span{display:inline-flex;align-items:center;gap:12px}
+  .marquee span::after{content:"🐙"}
   @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){.marquee{animation:none}}
 
-  header{
-    position:sticky;top:0;z-index:50;
-    background:rgba(253,249,248,.9);
-    backdrop-filter:blur(12px);
-    border-bottom:1px solid var(--line);
-  }
-  .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
-  .logo{
-    font-family:'Instrument Serif',serif;font-size:1.55rem;font-style:italic;text-decoration:none;color:var(--ink);
-    display:flex;align-items:center;gap:10px;letter-spacing:-.01em;
-  }
-  .logo img{height:34px;width:auto;display:block;object-fit:contain}
-  .logo .dot{width:8px;height:8px;border-radius:50%;background:var(--vermilion);display:inline-block;transform:translateY(-2px)}
-  .menu{display:flex;gap:28px;list-style:none;padding:0;margin:0}
-  .menu a{text-decoration:none;color:var(--ink);font-size:.82rem;font-family:'JetBrains Mono',monospace;letter-spacing:.08em;text-transform:uppercase;position:relative;padding:4px 0}
-  .menu a:hover{color:var(--vermilion)}
+  header{position:sticky;top:0;z-index:50;background:rgba(251,238,230,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+  .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-family:'Baloo 2',sans-serif;font-weight:800;font-size:1.35rem}
+  .logo svg{width:38px;height:38px;display:block}
+  .menu{display:flex;gap:30px;list-style:none;padding:0;margin:0}
+  .menu a{text-decoration:none;color:var(--ink);font-size:.94rem;font-weight:600}
+  .menu a:hover{color:var(--coral)}
   .btn{
-    display:inline-flex;align-items:center;gap:10px;
-    padding:14px 22px;font-weight:500;font-size:.82rem;
-    text-decoration:none;cursor:pointer;transition:all .18s ease;
-    font-family:'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase;
-    border-radius:0;
+    display:inline-flex;align-items:center;gap:9px;
+    padding:13px 24px;font-weight:700;font-size:.92rem;font-family:'Baloo 2',sans-serif;
+    text-decoration:none;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;
+    border-radius:999px;border:2px solid transparent;
   }
-  .btn-primary{background:var(--ink);color:var(--paper);border:1px solid var(--ink)}
-  .btn-primary:hover{background:var(--vermilion);border-color:var(--vermilion);color:var(--paper)}
-  .btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
-  .btn-ghost:hover{background:var(--ink);color:var(--paper)}
-  .btn-vermilion{background:var(--vermilion);color:var(--paper);border:1px solid var(--vermilion)}
-  .btn-vermilion:hover{background:var(--vermilion-2);border-color:var(--vermilion-2)}
+  .btn-primary{background:var(--coral);color:#fff;box-shadow:0 4px 0 var(--coral-2)}
+  .btn-primary:hover{transform:translateY(2px);box-shadow:0 2px 0 var(--coral-2)}
+  .btn-ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+  .btn-ghost:hover{background:var(--ink);color:#fff}
+  .btn-dark{background:var(--ink);color:#fff;box-shadow:0 4px 0 #06161f}
+  .btn-dark:hover{transform:translateY(2px);box-shadow:0 2px 0 #06161f}
   .btn .arrow{transition:transform .2s}
   .btn:hover .arrow{transform:translateX(3px)}
   .burger{display:none;background:none;border:0;font-size:1.5rem;cursor:pointer;color:var(--ink)}
 
-  .hero{padding:80px 0 60px;border-bottom:1px solid var(--line)}
-  .hero-top{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end;margin-bottom:48px}
-  .hero-meta{display:flex;flex-direction:column;gap:6px;text-align:right}
-  .hero-meta .mono{color:var(--muted)}
-  .hero h1 em{font-style:italic;color:var(--vermilion)}
-  .hero-bottom{display:grid;grid-template-columns:1.15fr .85fr;gap:80px;align-items:start;margin-top:56px}
-  .hero-lead{font-size:1.1rem;line-height:1.6;color:var(--ink-2);max-width:520px;border-left:2px solid var(--vermilion);padding-left:20px}
-  .hero-ctas{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:36px}
-  .hero-note{font-size:.82rem;color:var(--muted);margin-top:20px;font-family:'JetBrains Mono',monospace;letter-spacing:.05em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
-  .hero-note .tick{color:var(--vermilion);font-family:'Instrument Serif',serif;font-style:italic;font-size:1.4rem;line-height:0}
+  /* HERO */
+  .hero{padding:64px 0 40px;overflow:hidden}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+  .hero h1 em{font-style:normal;color:var(--coral)}
+  .hero-lead{font-size:1.12rem;max-width:480px;margin-top:22px}
+  .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+  .hero-note{font-size:.88rem;color:var(--text-soft);margin-top:20px;display:flex;align-items:center;gap:8px;font-weight:600}
 
-  .mockup-wrap{display:flex;flex-direction:column;gap:20px;position:relative}
-  .mockup{
-    background:var(--paper);position:relative;
-    border:1px solid var(--ink);padding:22px;
+  .octo-stage{position:relative;aspect-ratio:1/1;max-width:520px;margin:0 auto}
+  .badge{
+    position:absolute;background:#fff;border:2px solid var(--ink);border-radius:16px;
+    padding:9px 14px;display:flex;align-items:center;gap:8px;font-family:'Baloo 2',sans-serif;font-weight:600;font-size:.82rem;
+    box-shadow:0 4px 0 var(--ink);
   }
-  .mockup.after{background:var(--ink);color:var(--paper);border-color:var(--ink);transform:rotate(1deg)}
-  .mockup.before{transform:rotate(-1.2deg)}
-  .mockup .tag{
-    position:absolute;top:-1px;left:-1px;
-    font-family:'JetBrains Mono',monospace;font-size:.68rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;
-    padding:6px 12px;
-  }
-  .tag.before{background:var(--paper);color:var(--ink);border:1px solid var(--ink);border-bottom-right-radius:0}
-  .tag.after{background:var(--vermilion);color:var(--paper);border:1px solid var(--vermilion)}
-  .g-head{display:flex;gap:14px;align-items:flex-start;margin-top:16px}
-  .g-thumb{width:52px;height:52px;background:var(--paper-2);flex-shrink:0;border:1px solid var(--line-soft)}
-  .mockup.after .g-thumb{background:var(--vermilion);border-color:var(--vermilion)}
-  .g-title{font-family:'Instrument Serif',serif;font-size:1.25rem;line-height:1.1;margin-bottom:4px}
-  .mockup.after .g-title{color:var(--paper)}
-  .g-cat{font-size:.78rem;color:var(--muted);font-family:'JetBrains Mono',monospace;letter-spacing:.04em}
-  .mockup.after .g-cat{color:rgba(253,249,248,.6)}
-  .g-stars{display:flex;align-items:center;gap:4px;font-size:.82rem;color:var(--ink-2);margin-top:6px}
-  .mockup.after .g-stars{color:var(--paper)}
-  .g-stars .star{color:var(--vermilion);font-size:.95rem}
-  .g-stars .star.empty{color:var(--line-soft)}
-  .g-lines{margin-top:16px;display:flex;flex-direction:column;gap:7px}
-  .g-line{height:6px;background:var(--paper-2);}
-  .g-line.short{width:60%}
-  .g-line.mid{width:80%}
-  .g-badges{display:flex;gap:6px;margin-top:14px;flex-wrap:wrap}
-  .g-badge{font-family:'JetBrains Mono',monospace;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;background:rgba(253,249,248,.1);color:var(--paper);padding:4px 8px;border:1px solid rgba(253,249,248,.2)}
-  .g-badge.hot{background:var(--vermilion);border-color:var(--vermilion)}
+  .badge svg{width:18px;height:18px;flex-shrink:0}
+  .b1{top:2%;left:0;color:var(--coral-2)}
+  .b2{top:10%;right:0;color:var(--teal-2)}
+  .b3{bottom:26%;right:-4%;color:var(--plum)}
+  .b4{bottom:6%;left:6%;color:var(--coral-2)}
+  .b5{top:44%;left:-6%;color:var(--teal-2)}
+  .tentacle-arm{position:absolute;stroke:var(--ink);stroke-width:2;fill:none;opacity:.35}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  .octo-stage svg#octo{animation:bob 5s ease-in-out infinite}
+  @media (prefers-reduced-motion:reduce){.octo-stage svg#octo{animation:none}}
 
-  .problem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:56px;border-top:1px solid var(--line);border-left:1px solid var(--line)}
-  .problem-card{
-    padding:36px 32px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);
-    position:relative;transition:background .2s;
-  }
-  .problem-card:hover{background:var(--paper-2)}
-  .card-num{font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--vermilion);letter-spacing:.16em;margin-bottom:32px;display:block}
-  .icon-wrap{
-    width:44px;height:44px;color:var(--ink);
-    display:flex;align-items:center;justify-content:center;margin-bottom:20px;
-    border:1px solid var(--ink);border-radius:50%;
-  }
-  .problem-card h3{margin-bottom:10px;font-family:'Instrument Serif',serif;font-size:1.7rem;font-weight:400;line-height:1.1}
-  .problem-card p{margin:0;font-size:.94rem}
+  /* PROBLEM */
+  .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:52px}
+  .card{background:#fff;border:2px solid var(--ink);border-radius:24px;padding:32px;box-shadow:0 5px 0 var(--ink)}
+  .card-icon{width:48px;height:48px;border-radius:14px;background:var(--paper-2);display:flex;align-items:center;justify-content:center;margin-bottom:18px;color:var(--coral-2)}
+  .card h3{margin-bottom:8px}
+  .card p{margin:0;font-size:.95rem}
+  .eyebrow-row{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
-  .solution{background:var(--ink);color:var(--paper);border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
-  .solution .eyebrow{color:var(--paper)}
-  .solution h2{color:var(--paper)}
-  .solution p{color:rgba(253,249,248,.7)}
-  .solution .section-num{color:rgba(253,249,248,.5)}
-  .offer-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:56px;border:1px solid rgba(253,249,248,.2)}
-  .offer{
-    padding:44px 40px;position:relative;display:flex;flex-direction:column;
-    border-right:1px solid rgba(253,249,248,.2);
-  }
-  .offer:last-child{border-right:0;background:linear-gradient(180deg,rgba(227,29,61,.1),transparent 60%)}
-  .offer.featured::before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:var(--vermilion)}
-  .offer .rec{
-    position:absolute;top:24px;right:24px;color:var(--vermilion);
-    font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
-  }
-  .offer h3{font-family:'Instrument Serif',serif;font-size:2.2rem;font-weight:400;line-height:1;margin-bottom:8px;color:var(--paper)}
-  .offer .price{font-family:'JetBrains Mono',monospace;font-size:.78rem;color:var(--vermilion);letter-spacing:.1em;text-transform:uppercase;margin-bottom:32px;padding-bottom:24px;border-bottom:1px solid rgba(253,249,248,.15)}
-  .offer ul{list-style:none;padding:0;margin:0 0 32px;display:flex;flex-direction:column;gap:16px;flex:1}
-  .offer li{display:flex;gap:14px;align-items:flex-start;font-size:.95rem;color:rgba(253,249,248,.85);line-height:1.5}
-  .offer li svg{flex-shrink:0;margin-top:5px;color:var(--vermilion)}
+  /* SOLUTION */
+  .solution{background:var(--ink);color:#fff}
+  .solution h2{color:#fff}
+  .solution p{color:rgba(255,255,255,.72)}
+  .offer-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:52px}
+  .offer{background:rgba(255,255,255,.06);border:2px solid rgba(255,255,255,.18);border-radius:28px;padding:40px;display:flex;flex-direction:column}
+  .offer.featured{background:linear-gradient(160deg,rgba(255,111,81,.16),rgba(255,255,255,.04));border-color:var(--coral)}
+  .offer .tag{align-self:flex-start;background:var(--coral);color:#fff;font-family:'Baloo 2',sans-serif;font-weight:700;font-size:.76rem;padding:5px 14px;border-radius:999px;margin-bottom:16px}
+  .offer h3{font-size:1.7rem;color:#fff;margin-bottom:6px}
+  .offer .price{font-family:'Baloo 2',sans-serif;font-weight:600;font-size:.85rem;color:var(--coral);margin-bottom:26px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.15)}
+  .offer ul{list-style:none;padding:0;margin:0 0 30px;display:flex;flex-direction:column;gap:15px;flex:1}
+  .offer li{display:flex;gap:12px;align-items:flex-start;font-size:.95rem;color:rgba(255,255,255,.85);line-height:1.5}
+  .offer li svg{flex-shrink:0;margin-top:4px;color:var(--teal)}
 
-  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:56px;position:relative;border-top:1px solid var(--line)}
-  .step{padding:44px 32px 44px 0;position:relative}
-  .step:not(:last-child){border-right:1px solid var(--line-soft)}
-  .step:not(:first-child){padding-left:32px}
-  .step-num{
-    font-family:'Instrument Serif',serif;font-style:italic;font-size:5.5rem;color:var(--vermilion);line-height:.85;margin-bottom:24px;
-  }
-  .step h3{margin-bottom:10px;font-family:'Instrument Serif',serif;font-size:1.8rem;font-weight:400;line-height:1.05}
-  .step p{font-size:.95rem;margin:0}
+  /* STEPS */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:52px}
+  .step{background:var(--paper-2);border-radius:24px;padding:34px 30px;position:relative}
+  .step-arm{width:46px;height:46px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Baloo 2',sans-serif;font-weight:700;font-size:1.15rem;margin-bottom:20px}
+  .step h3{margin-bottom:8px}
+  .step p{margin:0;font-size:.95rem}
 
-  .trust-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;margin-top:56px;border-top:1px solid var(--line);border-left:1px solid var(--line)}
-  .trust-card{
-    padding:36px 32px;display:flex;gap:20px;align-items:flex-start;
-    border-right:1px solid var(--line);border-bottom:1px solid var(--line);
-  }
-  .trust-card .icon-wrap{margin:0;flex-shrink:0;width:40px;height:40px}
-  .trust-card h3{font-family:'Instrument Serif',serif;font-size:1.5rem;font-weight:400;line-height:1.05;margin-bottom:6px}
+  /* TRUST */
+  .trust-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:52px}
+  .trust-card{background:#fff;border:2px solid var(--ink);border-radius:22px;padding:28px;display:flex;gap:18px;align-items:flex-start}
+  .trust-card .card-icon{margin:0;flex-shrink:0;background:var(--paper-2)}
+  .trust-card h3{font-size:1.15rem;margin-bottom:6px}
   .trust-card p{font-size:.94rem;margin:0}
 
-  .faq-list{margin-top:56px;border-top:1px solid var(--line)}
-  .faq-item{border-bottom:1px solid var(--line)}
-  .faq-q{
-    width:100%;background:none;border:0;text-align:left;padding:28px 0;
-    font-family:'Instrument Serif',serif;font-size:1.6rem;font-weight:400;color:var(--ink);line-height:1.1;
-    display:flex;justify-content:space-between;align-items:center;gap:24px;cursor:pointer;
-    transition:color .2s;
-  }
-  .faq-q:hover{color:var(--vermilion)}
-  .faq-q .num{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--muted);letter-spacing:.16em;margin-right:auto;flex-shrink:0;width:40px}
-  .faq-q .txt{flex:1}
-  .faq-q .plus{
-    flex-shrink:0;width:32px;height:32px;color:var(--ink);
-    display:flex;align-items:center;justify-content:center;font-size:1.4rem;transition:transform .3s ease,color .2s;
-    font-family:'Instrument Serif',serif;
-  }
-  .faq-item.open .plus{transform:rotate(45deg);color:var(--vermilion)}
+  /* FAQ */
+  .faq-list{margin-top:48px;display:flex;flex-direction:column;gap:14px}
+  .faq-item{background:#fff;border:2px solid var(--ink);border-radius:20px;overflow:hidden}
+  .faq-q{width:100%;background:none;border:0;text-align:left;padding:22px 26px;font-family:'Baloo 2',sans-serif;font-size:1.08rem;font-weight:600;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:20px;cursor:pointer}
+  .faq-q .plus{flex-shrink:0;width:30px;height:30px;border-radius:50%;background:var(--paper-2);color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:1.3rem;transition:transform .25s ease}
+  .faq-item.open .plus{transform:rotate(45deg);background:var(--coral);color:#fff}
   .faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
-  .faq-a-inner{padding:0 60px 28px 60px;color:var(--ink-2);font-size:1rem;max-width:820px;line-height:1.6}
+  .faq-a-inner{padding:0 26px 24px;color:var(--text-soft);font-size:.98rem;max-width:820px;line-height:1.6}
   .faq-item.open .faq-a{max-height:700px}
 
+  /* CONTACT */
   .contact-section{padding:0}
-  .contact{background:var(--vermilion);color:var(--paper);padding:100px 56px;position:relative;overflow:hidden;border-top:1px solid var(--ink)}
-  .contact::before{
-    content:"";position:absolute;inset:0;pointer-events:none;
-    background-image:radial-gradient(rgba(253,249,248,.08) 1px, transparent 1px);
-    background-size:4px 4px;
-  }
-  .contact-inner{position:relative;max-width:1240px;margin:0 auto;display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:end}
-  .contact .eyebrow{color:var(--paper)}
-  .contact .eyebrow::before{background:var(--paper)}
-  .contact h2{color:var(--paper);font-size:clamp(2.8rem,6vw,5rem);margin-top:16px}
-  .contact h2 em{font-style:italic}
-  .contact-lead{color:rgba(253,249,248,.9);font-size:1.1rem;max-width:520px;margin-top:20px}
-  .contact-methods{display:flex;flex-direction:column;gap:16px}
-  .contact-method{
-    display:flex;align-items:center;gap:18px;background:transparent;
-    padding:20px 24px;text-decoration:none;color:var(--paper);
-    border:1px solid rgba(253,249,248,.4);transition:all .2s;
-  }
-  .contact-method:hover{background:var(--ink);border-color:var(--ink)}
-  .contact-method .icon-wrap{background:var(--paper);color:var(--vermilion);margin:0;width:42px;height:42px;flex-shrink:0;border-color:var(--paper)}
-  .cm-label{font-family:'JetBrains Mono',monospace;font-size:.68rem;color:rgba(253,249,248,.7);text-transform:uppercase;letter-spacing:.12em}
-  .cm-value{font-family:'Instrument Serif',serif;font-size:1.35rem;line-height:1.1;margin-top:2px}
-  .contact .btn{margin-top:12px;align-self:flex-start;background:var(--ink);border-color:var(--ink);color:var(--paper)}
-  .contact .btn:hover{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+  .contact{background:var(--coral);color:#fff;padding:96px 48px;border-radius:40px 40px 0 0;position:relative;overflow:hidden}
+  .contact-inner{position:relative;max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:end}
+  .contact h2{color:#fff}
+  .contact-lead{color:rgba(255,255,255,.92);font-size:1.08rem;max-width:480px;margin-top:16px}
+  .contact-methods{display:flex;flex-direction:column;gap:14px}
+  .contact-method{display:flex;align-items:center;gap:16px;background:rgba(255,255,255,.12);padding:18px 22px;text-decoration:none;color:#fff;border-radius:18px;border:2px solid rgba(255,255,255,.25);transition:background .2s}
+  .contact-method:hover{background:rgba(255,255,255,.22)}
+  .contact-method .card-icon{background:#fff;color:var(--coral-2);margin:0;width:40px;height:40px;flex-shrink:0}
+  .cm-label{font-size:.72rem;color:rgba(255,255,255,.75);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+  .cm-value{font-family:'Baloo 2',sans-serif;font-size:1.2rem}
+  .contact .btn{margin-top:14px;align-self:flex-start}
 
-  footer{padding:56px 0 40px;background:var(--ink);color:var(--paper)}
-  .foot{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:32px}
-  .foot .logo{color:var(--paper)}
-  .foot-links{display:flex;gap:28px;list-style:none;padding:0;margin:0;justify-content:center}
-  .foot-links a{text-decoration:none;color:rgba(253,249,248,.6);font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}
-  .foot-links a:hover{color:var(--vermilion)}
-  .foot small{color:rgba(253,249,248,.5);font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.08em;text-align:right;display:block}
-  .foot-brand small{display:block;margin-top:6px;color:rgba(253,249,248,.5);font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase}
+  footer{padding:44px 0;background:var(--ink);color:#fff;border-radius:0}
+  .foot{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+  .foot .logo{color:#fff}
+  .foot-links{display:flex;gap:24px;list-style:none;padding:0;margin:0}
+  .foot-links a{text-decoration:none;color:rgba(255,255,255,.65);font-size:.85rem;font-weight:600}
+  .foot-links a:hover{color:var(--coral)}
+  .foot small{color:rgba(255,255,255,.5);font-size:.82rem}
 
   @media (max-width: 900px){
-    section{padding:80px 0}
+    section{padding:76px 0}
     .container{padding:0 20px}
-    .menu{display:none;position:absolute;top:68px;left:0;right:0;background:var(--paper);flex-direction:column;padding:24px;border-bottom:1px solid var(--line);gap:20px}
+    .menu{display:none;position:absolute;top:76px;left:0;right:0;background:var(--paper);flex-direction:column;padding:24px;border-bottom:1px solid var(--line);gap:18px}
     .menu.open{display:flex}
     .burger{display:block}
     .nav .btn{display:none}
-    .hero-top{grid-template-columns:1fr;align-items:start}
-    .hero-meta{text-align:left}
-    .hero-bottom{grid-template-columns:1fr;gap:56px}
-    .problem-grid,.offer-grid,.steps,.trust-grid{grid-template-columns:1fr}
-    .step{padding:36px 0!important;border-right:0!important;border-bottom:1px solid var(--line-soft)}
-    .step:last-child{border-bottom:0}
-    .offer{border-right:0;border-bottom:1px solid rgba(253,249,248,.2)}
-    .contact{padding:64px 24px}
-    .contact-inner{grid-template-columns:1fr;gap:48px}
-    .foot{grid-template-columns:1fr;text-align:center}
-    .foot-links{justify-content:center}
-    .foot small{text-align:center}
-    .faq-a-inner{padding:0 0 24px 0}
-    .faq-q .num{width:auto;margin-right:12px}
+    .hero-grid{grid-template-columns:1fr}
+    .octo-stage{max-width:360px}
+    .badge{font-size:.72rem;padding:7px 11px}
+    .card-grid,.offer-grid,.steps,.trust-grid{grid-template-columns:1fr}
+    .contact{padding:56px 24px;border-radius:28px 28px 0 0}
+    .contact-inner{grid-template-columns:1fr;gap:40px}
+    .foot{flex-direction:column;text-align:center}
   }
 </style>
 </head>
 <body>
 
-<div class="strip">
-  <div class="marquee">
-    <span>SEO local</span><span>Fiche Google Business Profile</span><span>Citations locales</span><span>Collecte d'avis</span><span>Netlinking local</span><span>TPE · PME françaises</span>
-    <span>SEO local</span><span>Fiche Google Business Profile</span><span>Citations locales</span><span>Collecte d'avis</span><span>Netlinking local</span><span>TPE · PME françaises</span>
-  </div>
-</div>
-
 <header>
   <div class="container nav">
-    <a href="#" class="logo"><img src="logo.png" alt="La Bonne Adresse"></a>
+    <a href="#" class="logo">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="50" cy="42" rx="30" ry="26" fill="#FF6F51" stroke="#0E2A3D" stroke-width="4"/>
+        <circle cx="39" cy="38" r="6" fill="#0E2A3D"/><circle cx="61" cy="38" r="6" fill="#0E2A3D"/>
+        <circle cx="41" cy="36" r="2" fill="#fff"/><circle cx="63" cy="36" r="2" fill="#fff"/>
+        <path d="M18 55c-6 8-4 18 3 20 5 1 8-4 6-10" stroke="#0E2A3D" stroke-width="4" stroke-linecap="round" fill="none"/>
+        <path d="M34 60c-3 9 0 18 7 19 5 1 7-5 4-11" stroke="#0E2A3D" stroke-width="4" stroke-linecap="round" fill="none"/>
+        <path d="M50 62c0 9 4 17 11 16 5-1 5-7 1-12" stroke="#0E2A3D" stroke-width="4" stroke-linecap="round" fill="none"/>
+        <path d="M82 55c6 8 4 18-3 20-5 1-8-4-6-10" stroke="#0E2A3D" stroke-width="4" stroke-linecap="round" fill="none"/>
+        <path d="M66 60c3 9 0 18-7 19-5 1-7-5-4-11" stroke="#0E2A3D" stroke-width="4" stroke-linecap="round" fill="none"/>
+      </svg>
+      La Pieuvre
+    </a>
     <ul class="menu" id="menu">
-      <li><a href="#probleme">01 · Constat</a></li>
-      <li><a href="#solution">02 · Offre</a></li>
-      <li><a href="#etapes">03 · Méthode</a></li>
-      <li><a href="#faq">04 · FAQ</a></li>
-      <li><a href="#contact">05 · Contact</a></li>
+      <li><a href="#probleme">Constat</a></li>
+      <li><a href="#solution">Offre</a></li>
+      <li><a href="#etapes">Méthode</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
     <a href="#contact" class="btn btn-primary">Être rappelé <span class="arrow">→</span></a>
     <button class="burger" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
@@ -326,100 +242,65 @@
 </header>
 
 <section class="hero">
-  <div class="container">
-    <div class="hero-top">
-      <span class="eyebrow">SEO local pour TPE/PME</span>
-      <div class="hero-meta">
-        <span class="mono">Édition n°01</span>
-        <span class="mono">France · <span id="year-hero"></span></span>
+  <div class="container hero-grid">
+    <div>
+      <span class="pill"><span class="dot"></span>SEO local pour TPE/PME</span>
+      <h1 class="display" style="margin-top:22px">Votre visibilité locale a besoin de <em>plus d'un bras</em>.</h1>
+      <p class="hero-lead">Fiche Google, annuaires, avis, site : ce sont autant de canaux qui décident si un client vous trouve ou trouve votre concurrent. La Pieuvre s'occupe de chacun, en même temps, et continue de les tenir à jour mois après mois.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Réserver un appel gratuit <span class="arrow">→</span></a>
+        <a href="#solution" class="btn btn-ghost">Voir l'offre</a>
       </div>
+      <div class="hero-note">🦑 Audit offert de votre présence Google actuelle, sans engagement</div>
     </div>
 
-    <h1 class="serif">Vos clients ne vous <em>trouvent pas</em> sur Google.<br/>On règle ça durablement.</h1>
+    <div class="octo-stage">
+      <svg id="octo" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+        <ellipse cx="200" cy="150" rx="95" ry="82" fill="#FF6F51" stroke="#0E2A3D" stroke-width="6"/>
+        <circle cx="168" cy="140" r="18" fill="#fff" stroke="#0E2A3D" stroke-width="5"/>
+        <circle cx="232" cy="140" r="18" fill="#fff" stroke="#0E2A3D" stroke-width="5"/>
+        <circle cx="172" cy="136" r="7" fill="#0E2A3D"/>
+        <circle cx="236" cy="136" r="7" fill="#0E2A3D"/>
+        <path d="M180 178c8 8 32 8 40 0" stroke="#0E2A3D" stroke-width="5" stroke-linecap="round" fill="none"/>
+        <circle cx="140" cy="168" r="9" fill="#F1553A" opacity=".6"/>
+        <circle cx="260" cy="168" r="9" fill="#F1553A" opacity=".6"/>
+        <path d="M110 190c-30 18-46 60-30 92 10 20 34 20 38 0 3-14-8-24-20-22" stroke="#0E2A3D" stroke-width="7" stroke-linecap="round" fill="none"/>
+        <path d="M150 210c-18 26-20 66 2 88 14 14 34 6 30-12-4-16-20-18-28-8" stroke="#0E2A3D" stroke-width="7" stroke-linecap="round" fill="none"/>
+        <path d="M200 220c-2 30 6 66 30 78 16 8 30-6 22-20-8-13-22-10-26 2" stroke="#0E2A3D" stroke-width="7" stroke-linecap="round" fill="none"/>
+        <path d="M250 210c14 26 12 66-12 84-16 12-32-4-24-18 7-12 20-10 24 2" stroke="#0E2A3D" stroke-width="7" stroke-linecap="round" fill="none"/>
+        <path d="M290 190c30 16 48 58 34 90-9 20-33 22-38 2-4-14 6-24 18-22" stroke="#0E2A3D" stroke-width="7" stroke-linecap="round" fill="none"/>
+      </svg>
 
-    <div class="hero-bottom">
-      <div>
-        <p class="hero-lead">La grande majorité des gens cherchent une entreprise locale sur Google avant de la contacter. On optimise votre fiche, votre présence sur les annuaires et votre site, puis on entretient tout ça mois après mois — pour que vous restiez devant vos concurrents, pas juste le temps d'un lancement.</p>
-        <div class="hero-ctas">
-          <a href="#contact" class="btn btn-vermilion">Réserver un appel gratuit <span class="arrow">→</span></a>
-          <a href="#solution" class="btn btn-ghost">Voir l'offre</a>
-        </div>
-        <div class="hero-note"><span class="tick">✦</span> Audit offert de votre présence Google actuelle, sans engagement</div>
-      </div>
-
-      <div class="mockup-wrap">
-        <div class="mockup before">
-          <span class="tag before">Avant</span>
-          <div class="g-head">
-            <div class="g-thumb"></div>
-            <div>
-              <div class="g-title">Votre entreprise</div>
-              <div class="g-cat">Catégorie non renseignée</div>
-              <div class="g-stars">
-                <span class="star empty">★</span><span class="star empty">★</span><span class="star empty">★</span><span class="star empty">★</span><span class="star empty">★</span>
-                <span style="margin-left:8px;color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase">Aucun avis</span>
-              </div>
-            </div>
-          </div>
-          <div class="g-lines">
-            <div class="g-line"></div><div class="g-line mid"></div><div class="g-line short"></div>
-          </div>
-        </div>
-
-        <div class="mockup after">
-          <span class="tag after">Après</span>
-          <div class="g-head">
-            <div class="g-thumb"></div>
-            <div>
-              <div class="g-title">Votre entreprise — Service local à [Ville]</div>
-              <div class="g-cat">Artisan · Ouvert · Ferme à 19h</div>
-              <div class="g-stars">
-                <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
-                <span style="margin-left:8px;font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.06em"><b>4,9</b> · 87 avis</span>
-              </div>
-            </div>
-          </div>
-          <div class="g-badges">
-            <span class="g-badge hot">Populaire</span>
-            <span class="g-badge">Citations à jour</span>
-            <span class="g-badge">Photos ×24</span>
-            <span class="g-badge">Avis chaque semaine</span>
-          </div>
-        </div>
-      </div>
+      <div class="badge b1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Google Maps</div>
+      <div class="badge b2"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>Avis clients</div>
+      <div class="badge b3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><line x1="9" y1="4" x2="9" y2="20"/></svg>Annuaires</div>
+      <div class="badge b4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/></svg>Votre site</div>
+      <div class="badge b5"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.6" x2="15.4" y2="6.4"/><line x1="8.6" y1="13.4" x2="15.4" y2="17.6"/></svg>Réseaux</div>
     </div>
   </div>
 </section>
 
 <section id="probleme">
   <div class="container">
-    <span class="section-num">§ 01 — Constat</span>
-    <span class="eyebrow">Le constat</span>
-    <h2 class="serif" style="margin-top:20px;max-width:1000px">Trois raisons pour lesquelles vous <em class="italic" style="color:var(--vermilion)">perdez des clients</em> chaque semaine</h2>
-    <p style="max-width:640px;font-size:1.05rem">Un client qui ne vous trouve pas sur Google, c'est un client qui appelle votre concurrent. Voici ce qui bloque le plus souvent.</p>
+    <div class="eyebrow-row">
+      <span class="pill"><span class="dot"></span>Le constat</span>
+    </div>
+    <h2 class="display" style="margin-top:20px;max-width:800px">Trois raisons pour lesquelles vous <span style="color:var(--coral-2)">perdez des clients</span> chaque semaine</h2>
+    <p style="max-width:600px;font-size:1.05rem">Un client qui ne vous trouve pas sur Google, c'est un client qui appelle votre concurrent. Voici ce qui bloque le plus souvent.</p>
 
-    <div class="problem-grid">
-      <div class="problem-card">
-        <span class="card-num">N° 01</span>
-        <div class="icon-wrap">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-        </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
         <h3>Votre présence Google est incomplète</h3>
         <p>Photos manquantes, mauvaise catégorie, horaires flous, description vide, informations différentes d'un annuaire à l'autre… Google vous met de côté au profit de fiches mieux tenues.</p>
       </div>
-      <div class="problem-card">
-        <span class="card-num">N° 02</span>
-        <div class="icon-wrap">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        </div>
+      <div class="card">
+        <div class="card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
         <h3>Vos avis se sont arrêtés</h3>
         <p>Un pic d'avis suivi de silence ne suffit plus — c'est la régularité qui compte désormais pour Google. Sans flux constant, vos concurrents actifs vous dépassent.</p>
       </div>
-      <div class="problem-card">
-        <span class="card-num">N° 03</span>
-        <div class="icon-wrap">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        </div>
+      <div class="card">
+        <div class="card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
         <h3>Votre visibilité n'est jamais entretenue</h3>
         <p>Une fiche optimisée une seule fois se fige et perd de sa force en quelques mois. Sans suivi, vos concurrents qui publient et actualisent leur profil reprennent l'avantage.</p>
       </div>
@@ -429,13 +310,13 @@
 
 <section id="solution" class="solution">
   <div class="container">
-    <span class="section-num">§ 02 — Offre</span>
-    <span class="eyebrow">Notre offre</span>
-    <h2 class="serif" style="margin-top:20px;max-width:1000px">Une prestation <em class="italic" style="color:var(--vermilion)">claire</em>, sans jargon, avec des résultats concrets</h2>
-    <p style="max-width:640px;font-size:1.05rem">On installe une présence Google solide, puis on l'entretient chaque mois. Vous, vous vous concentrez sur votre métier.</p>
+    <span class="pill on-dark"><span class="dot"></span>Notre offre</span>
+    <h2 class="display" style="margin-top:20px;max-width:800px">Une prestation claire, sans jargon, avec des résultats concrets</h2>
+    <p style="max-width:600px;font-size:1.05rem">On installe une présence Google solide, puis on l'entretient chaque mois. Vous, vous vous concentrez sur votre métier.</p>
 
     <div class="offer-grid">
       <div class="offer">
+        <span class="tag" style="background:var(--teal)">Ponctuel</span>
         <h3>Setup complet</h3>
         <div class="price">Prestation ponctuelle · sur devis</div>
         <ul>
@@ -445,11 +326,11 @@
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Système de collecte d'avis clés en main (lien direct, mail-type prêt à envoyer)</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Livraison en moins d'une semaine</li>
         </ul>
-        <a href="#contact" class="btn btn-ghost" style="border-color:rgba(253,249,248,.4);color:var(--paper)">Demander un devis</a>
+        <a href="#contact" class="btn btn-ghost" style="border-color:rgba(255,255,255,.4);color:#fff">Demander un devis</a>
       </div>
 
       <div class="offer featured">
-        <span class="rec">✦ Recommandé</span>
+        <span class="tag">✦ Recommandé</span>
         <h3>Suivi mensuel</h3>
         <div class="price">Forfait mensuel · sur devis</div>
         <ul>
@@ -460,7 +341,7 @@
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Rapport mensuel simple : positions, vues, appels et itinéraires générés</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Sans engagement, résiliable à tout moment</li>
         </ul>
-        <a href="#contact" class="btn btn-vermilion">En parler ensemble <span class="arrow">→</span></a>
+        <a href="#contact" class="btn btn-primary">En parler ensemble <span class="arrow">→</span></a>
       </div>
     </div>
   </div>
@@ -468,23 +349,22 @@
 
 <section id="etapes">
   <div class="container">
-    <span class="section-num">§ 03 — Méthode</span>
-    <span class="eyebrow">Comment ça marche</span>
-    <h2 class="serif" style="margin-top:20px;max-width:900px">Trois étapes, <em class="italic" style="color:var(--vermilion)">zéro prise de tête</em></h2>
+    <span class="pill"><span class="dot"></span>Comment ça marche</span>
+    <h2 class="display" style="margin-top:20px;max-width:700px">Trois étapes, zéro prise de tête</h2>
 
     <div class="steps">
       <div class="step">
-        <div class="step-num">01</div>
+        <div class="step-arm">1</div>
         <h3>Audit gratuit</h3>
         <p>On regarde ensemble votre fiche, vos citations et votre visibilité actuelle : ce qui manque, ce qui vous coûte des clients. C'est offert et sans engagement.</p>
       </div>
       <div class="step">
-        <div class="step-num">02</div>
+        <div class="step-arm">2</div>
         <h3>On installe tout</h3>
         <p>Fiche Google, citations locales, landing page, collecte d'avis. Vous n'avez rien à faire, on gère de bout en bout.</p>
       </div>
       <div class="step">
-        <div class="step-num">03</div>
+        <div class="step-arm">3</div>
         <h3>On entretient dans la durée</h3>
         <p>Avis, publications, contenu, netlinking : votre visibilité continue de se renforcer chaque mois, au lieu de retomber après le lancement.</p>
       </div>
@@ -494,42 +374,33 @@
 
 <section>
   <div class="container">
-    <span class="section-num">§ 04 — Signature</span>
-    <span class="eyebrow">Pourquoi nous</span>
-    <h2 class="serif" style="margin-top:20px;max-width:1000px">Un accompagnement <em class="italic" style="color:var(--vermilion)">humain</em>, pas un outil de plus</h2>
+    <span class="pill"><span class="dot"></span>Pourquoi nous</span>
+    <h2 class="display" style="margin-top:20px;max-width:700px">Un accompagnement humain, pas un outil de plus</h2>
 
     <div class="trust-grid">
       <div class="trust-card">
-        <div class="icon-wrap">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-        </div>
+        <div class="card-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
         <div>
           <h3>Spécialisé TPE/PME françaises</h3>
           <p>Artisans, commerçants, prestataires locaux. On connaît vos contraintes de temps et de budget.</p>
         </div>
       </div>
       <div class="trust-card">
-        <div class="icon-wrap">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-        </div>
+        <div class="card-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
         <div>
           <h3>Méthode basée sur les vrais critères Google</h3>
           <p>Pas de "recettes miracles". On applique ce qui compte réellement pour le référencement local, mis à jour chaque année.</p>
         </div>
       </div>
       <div class="trust-card">
-        <div class="icon-wrap">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-        </div>
+        <div class="card-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
         <div>
           <h3>Accompagnement personnalisé</h3>
           <p>Pas un logiciel automatisé. Un vrai interlocuteur qui prend le temps de comprendre votre activité.</p>
         </div>
       </div>
       <div class="trust-card">
-        <div class="icon-wrap">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        </div>
+        <div class="card-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
         <div>
           <h3>Auto-entrepreneur français, joignable</h3>
           <p>Basé en France, disponible par téléphone et email. Vous parlez directement à la personne qui travaille sur votre visibilité.</p>
@@ -539,39 +410,38 @@
   </div>
 </section>
 
-<section id="faq" style="background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
-  <div class="container" style="max-width:960px">
-    <span class="section-num">§ 05 — FAQ</span>
-    <span class="eyebrow">Questions fréquentes</span>
-    <h2 class="serif" style="margin-top:20px">Ce qu'on nous <em class="italic" style="color:var(--vermilion)">demande souvent</em></h2>
+<section id="faq" style="background:var(--paper-2)">
+  <div class="container" style="max-width:920px">
+    <span class="pill"><span class="dot"></span>Questions fréquentes</span>
+    <h2 class="display" style="margin-top:20px">Ce qu'on nous demande souvent</h2>
 
     <div class="faq-list">
       <div class="faq-item">
-        <button class="faq-q"><span class="num">Q.01</span><span class="txt">Combien de temps avant de voir des résultats ?</span><span class="plus">+</span></button>
+        <button class="faq-q"><span>Combien de temps avant de voir des résultats ?</span><span class="plus">+</span></button>
         <div class="faq-a"><div class="faq-a-inner">Les premières améliorations sur Google se voient en général entre 2 et 6 semaines après le setup. Les premiers avis clients arrivent souvent dès le premier mois. Les effets du suivi mensuel (avis réguliers, contenu, netlinking) se construisent ensuite dans la durée, avec un rapport mensuel pour suivre la progression.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q"><span class="num">Q.02</span><span class="txt">Je n'ai aucun avis pour l'instant, c'est grave ?</span><span class="plus">+</span></button>
+        <button class="faq-q"><span>Je n'ai aucun avis pour l'instant, c'est grave ?</span><span class="plus">+</span></button>
         <div class="faq-a"><div class="faq-a-inner">Pas du tout — c'est même une situation très courante. On met en place un système simple pour demander des avis à vos clients existants et récents, puis on maintient un flux régulier chaque semaine dans le cadre du suivi mensuel.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q"><span class="num">Q.03</span><span class="txt">Quelle est la différence avec une agence SEO classique ?</span><span class="plus">+</span></button>
-        <div class="faq-a"><div class="faq-a-inner">Les agences SEO généralistes travaillent surtout sur des sites web complexes et des stratégies de contenu larges, avec des budgets qui démarrent souvent bien plus haut. Nous, on se concentre uniquement sur ce qui rapporte à une TPE/PME locale : votre fiche Google, vos citations, vos avis et votre visibilité de proximité. C'est ciblé, concret, et abordable.</div></div>
+        <button class="faq-q"><span>Quelle est la différence avec une agence SEO classique ?</span><span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Les agences SEO généralistes travaillent surtout sur des sites web complexes et des stratégies de contenu larges, avec des budgets qui démarrent souvent bien plus haut. La Pieuvre se concentre uniquement sur ce qui rapporte à une TPE/PME locale : votre fiche Google, vos citations, vos avis et votre visibilité de proximité, tenus ensemble plutôt qu'en pièces détachées. C'est ciblé, concret, et abordable.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q"><span class="num">Q.04</span><span class="txt">C'est quoi les "citations locales" et pourquoi c'est important ?</span><span class="plus">+</span></button>
+        <button class="faq-q"><span>C'est quoi les "citations locales" et pourquoi c'est important ?</span><span class="plus">+</span></button>
         <div class="faq-a"><div class="faq-a-inner">Ce sont les mentions de votre entreprise sur les annuaires (Pages Jaunes, Mappy, Yelp...) et sites professionnels. Quand votre nom, adresse et téléphone sont identiques partout, Google vous fait davantage confiance — la moindre incohérence (même une simple abréviation) peut jouer contre vous. On vérifie et corrige tout ça dans le setup initial.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q"><span class="num">Q.05</span><span class="txt">Est-ce que je dois faire quelque chose de mon côté ?</span><span class="plus">+</span></button>
+        <button class="faq-q"><span>Est-ce que je dois faire quelque chose de mon côté ?</span><span class="plus">+</span></button>
         <div class="faq-a"><div class="faq-a-inner">Très peu. On aura besoin de vos accès à la fiche Google (on vous guide pas à pas si besoin) et de quelques infos sur votre activité. Ensuite, on fait le travail. Vous validez, c'est en ligne.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q"><span class="num">Q.06</span><span class="txt">Le suivi mensuel est-il obligatoire ?</span><span class="plus">+</span></button>
+        <button class="faq-q"><span>Le suivi mensuel est-il obligatoire ?</span><span class="plus">+</span></button>
         <div class="faq-a"><div class="faq-a-inner">Non, absolument pas. Vous pouvez très bien prendre uniquement le setup ponctuel. Le suivi mensuel est simplement ce qui permet de garder votre visibilité active dans la durée : sans lui, une fiche optimisée une seule fois tend à se figer et à perdre de sa force face à des concurrents qui, eux, restent actifs.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q"><span class="num">Q.07</span><span class="txt">Comment se passe le premier contact ?</span><span class="plus">+</span></button>
+        <button class="faq-q"><span>Comment se passe le premier contact ?</span><span class="plus">+</span></button>
         <div class="faq-a"><div class="faq-a-inner">Un simple appel de 15-20 minutes pour comprendre votre activité, regarder votre présence Google actuelle et voir ce qui peut être amélioré. C'est gratuit et sans engagement. Si ça vous parle ensuite, on continue. Sinon, vous repartez avec un diagnostic honnête de votre visibilité locale.</div></div>
       </div>
     </div>
@@ -582,29 +452,19 @@
   <div class="contact">
     <div class="contact-inner">
       <div>
-        <span class="eyebrow">§ 06 — Contact</span>
-        <h2 class="serif">Parlons de votre <em>visibilité</em></h2>
+        <span class="pill on-dark" style="border-color:rgba(255,255,255,.6)"><span class="dot" style="background:#fff"></span>Contact</span>
+        <h2 class="display" style="margin-top:16px">Parlons de votre visibilité</h2>
         <p class="contact-lead">Un appel gratuit de 15 minutes pour voir où vous en êtes et ce qu'on peut améliorer. Aucun engagement, réponse sous 24h.</p>
-        <a href="mailto:contact.ismalh@gmail.com?subject=Réserver%20un%20appel%20gratuit" class="btn">Réserver un appel gratuit <span class="arrow">→</span></a>
+        <a href="mailto:contact.ismalh@gmail.com?subject=Réserver%20un%20appel%20gratuit" class="btn btn-dark">Réserver un appel gratuit <span class="arrow">→</span></a>
       </div>
       <div class="contact-methods">
         <a href="mailto:contact.ismalh@gmail.com" class="contact-method">
-          <div class="icon-wrap">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          </div>
-          <div>
-            <div class="cm-label">Email</div>
-            <div class="cm-value">contact.ismalh@gmail.com</div>
-          </div>
+          <div class="card-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="cm-label">Email</div><div class="cm-value">contact.ismalh@gmail.com</div></div>
         </a>
         <a href="tel:0601741374" class="contact-method">
-          <div class="icon-wrap">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          </div>
-          <div>
-            <div class="cm-label">Téléphone</div>
-            <div class="cm-value">06 01 74 13 74</div>
-          </div>
+          <div class="card-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><div class="cm-label">Téléphone</div><div class="cm-value">06 01 74 13 74</div></div>
         </a>
       </div>
     </div>
@@ -613,11 +473,19 @@
 
 <footer>
   <div class="container foot">
-    <div class="foot-brand">
-      <a href="#" class="logo"><img src="logo.png" alt="La Bonne Adresse"></a>
-    </div>
+    <a href="#" class="logo">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="50" cy="42" rx="30" ry="26" fill="#FF6F51" stroke="#fff" stroke-width="4"/>
+        <circle cx="39" cy="38" r="6" fill="#0E2A3D"/><circle cx="61" cy="38" r="6" fill="#0E2A3D"/>
+      </svg>
+      La Pieuvre
+    </a>
     <ul class="foot-links">
-    <small>© <span id="year"></span> La Bonne Adresse</small>
+      <li><a href="#probleme">Constat</a></li>
+      <li><a href="#solution">Offre</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <small>© <span id="year"></span> La Pieuvre</small>
   </div>
 </footer>
 
@@ -633,9 +501,7 @@
   document.querySelectorAll('#menu a').forEach(function(a){
     a.addEventListener('click', function(){ document.getElementById('menu').classList.remove('open'); });
   });
-  var y = new Date().getFullYear();
-  document.getElementById('year').textContent = y;
-  document.getElementById('year-hero').textContent = y;
+  document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
 </body>
